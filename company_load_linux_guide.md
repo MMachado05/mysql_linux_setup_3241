@@ -170,17 +170,7 @@ own edits:
 - [Markdown](https://www.markdownguide.org/): The markup language I used to create the guide.
 - [NeoVim](https://neovim.io/): Primary text editor for the original markdown.
 - [Pandoc](https://pandoc.org/): A "compiler" for markdown that makes the output PDF nice
-  and fancy. If you're curious, here's the command I used to get it to look the way it
-does. You should be able to simply copy and paste it:
-
-```sh
-pandoc -V geometry:margin=1in \
--V colorlinks=true \
--V linkcolor=blue \
-company_load_linux_guide.md \
---highlight-style dracula.theme \ # .theme files can be found online.
--s -o company_load_linux_guide.pdf
-```
+  and fancy.
 
 ## Authors
 
@@ -189,5 +179,5 @@ Marcial Machado
 ## License
 
 [Company Load Linux Guide for CSE3241 at Ohio State](https://github.com/MMachado05/mysql_linux_setup_3241) © 2025 by Marcial Machado is licensed under 
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![](cc.svg){width=12}
-![](by.svg){width=12} ![](sa.svg){width=12}
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![](assets/cc.svg){width=12}
+![](assets/by.svg){width=12} ![](assets/sa.svg){width=12}

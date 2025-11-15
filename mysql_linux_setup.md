@@ -28,9 +28,9 @@ app centers (GNOME Software, KDE Discover, Ubuntu App Store, etc.), but you can 
 package manager associated with your system if you want to keep an easily-accessible
 history in case something goes awry (`apt`, `dnf`, etc.).
 
-![Fedora downloads.](fedora41downloads.png)
+![Fedora downloads.](assets/fedora41downloads.png)
 
-![Ubuntu downloads.](ubuntu2204downloads.png)
+![Ubuntu downloads.](assets/ubuntu2204downloads.png)
 
 ### Option 2: Install from your distribution repository
 
@@ -164,12 +164,12 @@ ways to get Beekeeper; the official packages, or the unverified Flatpak.
 When you go the [Beekeeper website](https:/www.beekeeperstudio.io) from a Linux distro,
 the download link will automatically show you a Linux download button:
 
-![The Beekeeper download button on the main page.](beekeeper1.png){height=300}
+![The Beekeeper download button on the main page.](assets/beekeeper1.png){height=300}
 
 When you go to the download link, you can skip the email signup with the (annoyingly)
 light "skip to the download" button:
 
-![Dark patterns...](beekeeper2.png){height=250}
+![Dark patterns...](assets/beekeeper2.png){height=250}
 
 Once here, a couple of options will show up. The two I recommend are the AppImage
 options; whichever you pick depends on your CPU architecture (you probably have the one
@@ -207,7 +207,7 @@ click "install" directly from the Flathub page, and it'll either open your app c
 download a `.flatpakref` file you can double-click, or give you a command to install it
 through the terminal.
 
-![Beekeeper on Flathub](beekeeperflathub.png){height=300}
+![Beekeeper on Flathub](assets/beekeeperflathub.png){height=300}
 
 **I have not used the flatpak personally.** Because it's sandboxed, it might give you
 trouble. I still do recommend the AppImage, as I've personally vetted it, but maybe the
@@ -221,12 +221,12 @@ In order to use Beekeeper, you need to establish a connection to the MySQL serve
 can do this by pressing "New Connection" on the top left corner, then creating a new
 MySQL connection in the provided drop-down.
 
-![Creating a local connection to MySQL from Beekeeper.](beekeeper_1.png){height=300}
+![Creating a local connection to MySQL from Beekeeper.](assets/beekeeper_1.png){height=300}
 
 When you select this, you will be provided with a wizard to set up the connection. The
 only settings you need to worry about are the following:
 
-![Setting up the MySQL connection](beekeeper_2.png){height=400}
+![Setting up the MySQL connection](assets/beekeeper_2.png){height=400}
 
 - The **Port** should be set to `3306`, as this is the default port for MySQL servers. If
   you somehow changed this port (I don't know how you would), just make sure it matches
@@ -247,7 +247,7 @@ it appears in the "Select a Database" dropdown.
 When you want to leave this database, simply click the "link" button on the bottom left,
 and disconnect.
 
-![Disconnecting from the database.](beekeeper_3.png){height=300}
+![Disconnecting from the database.](assets/beekeeper_3.png){height=300}
 
 \newpage
 
@@ -308,17 +308,7 @@ own edits:
 - [Markdown](https://www.markdownguide.org/): The markup language I used to create the guide.
 - [NeoVim](https://neovim.io/): Primary text editor for the original markdown.
 - [Pandoc](https://pandoc.org/): A "compiler" for markdown that makes the output PDF nice
-  and fancy. If you're curious, here's the command I used to get it to look the way it
-does. You should be able to simply copy and paste it:
-
-```bash
-pandoc -V geometry:margin=1in \
--V colorlinks=true \
--V linkcolor=blue \
-mysql_linux_setup.md \
---highlight-style dracula.theme \ # .theme files can be found online.
--s -o mysql_linux_setup.pdf
-```
+  and fancy.
 
 ## Authors
 
@@ -328,5 +318,5 @@ Marcial Machado
 
 [MySQL Linux Setup for CSE3241 at Ohio
 State](https://github.com/MMachado05/mysql_linux_setup_3241) © 2025 by Marcial Machado is licensed under 
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![](cc.svg){width=12}
-![](by.svg){width=12} ![](sa.svg){width=12}
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![](assets/cc.svg){width=12}
+![](assets/by.svg){width=12} ![](assets/sa.svg){width=12}
