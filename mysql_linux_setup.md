@@ -326,6 +326,7 @@ Marcial Machado
 
 ## License
 
-MySQL Linux Setup for CSE3241 at Ohio State © 2025 by Marcial Machado is licensed under 
+[MySQL Linux Setup for CSE3241 at Ohio
+State](https://github.com/MMachado05/mysql_linux_setup_3241) © 2025 by Marcial Machado is licensed under 
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![](cc.svg){width=12}
 ![](by.svg){width=12} ![](sa.svg){width=12}
